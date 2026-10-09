@@ -1,0 +1,12 @@
+Kit de départ du projet final - Correcteur de textes (Les Plumes de Serris)
+
+go.mod       module Go déjà initialisé (module correcteur)
+main.go      programme minimal à compléter
+exemple.txt  un vrai compte rendu à corriger
+tests/       fichiers de test : XXX-entree.txt (à corriger) et XXX-attendu.txt (résultat attendu)
+             T01-T08 : règles du socle · L01-L05 : cas limites · X01-X04 : extensions
+
+Tester une règle :  go run . tests/T01-entree.txt sortie.txt
+Comparer :          diff sortie.txt tests/T01-attendu.txt   (Windows : fc sortie.txt tests\T01-attendu.txt)
+
+Tout est expliqué dans le sujet : Projet_01_Sujet.
